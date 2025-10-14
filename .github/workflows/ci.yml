@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
 on:
   pull_request:
-    branches: ["main"] # Adjust this to your main branch name if necessary
+    branches: ["master"] # Adjust this to your main branch name if necessary
 
 jobs:
   build:
